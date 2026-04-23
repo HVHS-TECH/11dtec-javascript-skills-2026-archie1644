@@ -16,7 +16,7 @@ main code
 console.log("Hi "+ name + ",")
 console.log("as of " + year + ", " + "you are " + age + " years old" + ".")
 console.log("you have " + pocketMoney + " " + "dollars.")
-
+console.log("you were born in " + year - age)
 
 /****************************
 functions
