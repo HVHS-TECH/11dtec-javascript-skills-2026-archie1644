@@ -2,7 +2,6 @@
 Introduction
 ****************************/
 console.log("Running t01_introduction.js")
-console.log("skibdi toilet skibidi toilet 67 67 tung tung tung sahur")
 
 //variables
 let name = "archie";
@@ -13,7 +12,9 @@ let year = 2026;
 /****************************
 main code
 ****************************/
-console.log("Hi "+ name + "as of" + year + "," + "you have " + pocketMoney)
+console.log("Hi "+ name)
+console.log("as of " + year + ", " + "you are " + age + " years old")
+console.log("you have " + pocketMoney + " " + "dollars.")
 
 
 /****************************
