@@ -1,7 +1,7 @@
 /****************************
-Maths
+JavaScript and HTML
 ****************************/
-console.log("Running t03_maths.js")
+console.log("Running t05_JavaScript_and_HTML.js")
 
 //variables
 let name = "archie";
