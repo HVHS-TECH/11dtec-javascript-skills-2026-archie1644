@@ -1,14 +1,10 @@
 console.log("Task 4 - Debugging")
 
-// Set up the size of the page.
-var length = 8;
-var width = 10;
-
 // calculate the area
-var area = length + width;
+var area = length * width;
 
 // calculate the perimeter
-var perimeter = length + width * 2; 
+var perimeter = (length + width) * 2; 
 
 
 // Set up the size of the page.
