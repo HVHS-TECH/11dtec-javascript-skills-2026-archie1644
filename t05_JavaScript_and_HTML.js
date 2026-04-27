@@ -15,8 +15,8 @@ let year = 2026;
 /****************************
 main code
 ****************************/
-OUTPUT.innerHTML += <h2>"Hi "+ name + ","</h2>
-OUTPUT.innerHTML += "as of " + year + ", " + "you are " + age + " years old" + "."
+OUTPUT.innerHTML += "<p>Hello " + name + ","
+OUTPUT.innerHTML += "<p>as of " + year + ", " + "you are " + age + " years old" + "."
 OUTPUT.innerHTML += "you were born in", year-age
 OUTPUT.innerHTML += "In 10 years, you will be", age+10
 OUTPUT.innerHTML += "you have " + pocketMoney + " " + "dollars."
