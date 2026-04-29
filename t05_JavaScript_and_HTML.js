@@ -17,7 +17,7 @@ main code
 ****************************/
 OUTPUT.innerHTML += "<p>Hi "+ name;
 OUTPUT.innerHTML += "<p>as of " + year + " you are " + age + " years old";
-OUTPUT.innerHTML += "<p>you were born in", year-age;
+OUTPUT.innerHTML += "<p>you were born in" + year-age;
 var yearBorn = year-age;
 OUTPUT.innerHTML += "<p>In 10 years, you will be", age+10;
 var tenYears = age+10;
