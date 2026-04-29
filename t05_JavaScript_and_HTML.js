@@ -29,7 +29,7 @@ var plusThree = pocketMoney/2+3;
 
 
 OUTPUT.innerHTML += "<p>Hi " + name + ",</p>"
-OUTPUT.innerHTML += "<p>as of " + year + ", " + "you are " + age + " years old" + ".</p>"
+OUTPUT.innerHTML += "as of " + year + ", " + "you are " + age + " years old";
 OUTPUT.innerHTML += "<p>you were born in " + yearBorn + ".</p>"
 OUTPUT.innerHTML += "<p>In 10 years, you will be " + tenYears + ".</p>"
 OUTPUT.innerHTML += "<p>you have " + pocketMoney + " dollars</p>"
