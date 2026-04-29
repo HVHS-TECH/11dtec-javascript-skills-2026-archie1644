@@ -28,7 +28,9 @@ console.log("then you get $3, you now have", pocketMoney/2+3, "dollars" )
 var plusThree = pocketMoney/2+3;
 
 
-OUTPUT.innerHTML += "<p>Hi" + name + ",</p>"
+OUTPUT.innerHTML += "<p>Hi " + name + ",</p>"
+OUTPUT.innerHTML += "<p>as of " + year + ", " + "you are " + age + " years old" + ".</p>"
+OUTPUT.innerHTML += "<p>you were born in" + year-age + ".</p>"
 
 /****************************
 functions
