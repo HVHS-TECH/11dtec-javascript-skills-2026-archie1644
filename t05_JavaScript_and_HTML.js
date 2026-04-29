@@ -11,22 +11,20 @@ let name = "archie";
 let pocketMoney = 2;
 let age = 16;
 let year = 2026;
-
+var yearBorn = year-age;
+var tenYears = age+10;
+var halfMoney = pocketMoney/2;
+var plusThree = pocketMoney/2+3;
 /****************************
 main code
 ****************************/
 OUTPUT.innerHTML += "<p>Hi "+ name;
 OUTPUT.innerHTML += "<p>as of " + year + " you are " + age + " years old";
-OUTPUT.innerHTML += "<p>you were born in" + year-age;
-var yearBorn = year-age;
-OUTPUT.innerHTML += "<p>In 10 years, you will be", age+10;
-var tenYears = age+10;
+OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
+OUTPUT.innerHTML += "<p>In 10 years, you will be " + tenYears;
 OUTPUT.innerHTML += "<p>you have " + pocketMoney + " dollars.";
-OUTPUT.innerHTML += "<p>you spend half of your money, now you have", pocketMoney/2, "dollars";
-var halfMoney = pocketMoney/2;
-OUTPUT.innerHTML += "<p>then you get $3, you now have", pocketMoney/2+3, "dollars" ;
-var plusThree = pocketMoney/2+3;
-
+OUTPUT.innerHTML += "<p>you spend half of your money, now you have " + halfMoney + " dollars";
+OUTPUT.innerHTML += "<p>then you get $3, you now have " + plusThree + " dollars" ;
 
 /****************************
 functions
