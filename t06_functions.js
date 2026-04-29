@@ -18,6 +18,8 @@ var plusThree = pocketMoney/2+3;
 /****************************
 main code
 ****************************/
+
+welcome()
 OUTPUT.innerHTML += "<p>Hi "+ name;
 OUTPUT.innerHTML += "<p>as of " + year + " you are " + age + " years old";
 OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
@@ -30,7 +32,6 @@ OUTPUT.innerHTML += "<p>then you get $3, you now have " + plusThree + " dollars"
 functions
 ****************************/
 function welcome(){
-    OUTPUT.innerHTML += "<p>welcome to the shop";
+    OUTPUT.innerHTML += "<p>welcome to the shop</p>";
 }
 
-welcome()
