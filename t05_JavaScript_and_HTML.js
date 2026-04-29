@@ -29,12 +29,12 @@ var plusThree = pocketMoney/2+3;
 
 
 OUTPUT.innerHTML += "<p>Hi " + name + ",</p>"
-OUTPUT.innerHTML += "as of " + year + ", " + "you are " + age + " years old";
+OUTPUT.innerHTML += "<p>as of " + year + ", " + "you are " + age + " years old" + ".</p>"
 OUTPUT.innerHTML += "<p>you were born in " + yearBorn + ".</p>"
-OUTPUT.innerHTML += "<p>In 10 years, you will be " + tenYears + ".</p>"
+OUTPUT.innerHTML += "<p>In 10 years, you will be " + age+10 + ".</p>"
 OUTPUT.innerHTML += "<p>you have " + pocketMoney + " dollars</p>"
-OUTPUT.innerHTML += "<p>you spend half of your money, now you have " + halfMoney + ".</p>"
-OUTPUT.innerHTML +=
+OUTPUT.innerHTML += "<p>you spend half of your money, now you have " + pocketMoney/2 + " dollar.</p>"
+OUTPUT.innerHTML += "<p>then you get $3, you now have " + pocketMoney/2+3 + " dollars";
 
 /****************************
 functions
