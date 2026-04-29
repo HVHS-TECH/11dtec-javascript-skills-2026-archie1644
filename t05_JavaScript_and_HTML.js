@@ -3,7 +3,7 @@ JavaScript and HTML
 ****************************/
 console.log("Running t05_JavaScript_and_HTML.js")
 
-const OUTPUT = document.getElementById("ForJavaScriptOutput");
+const OUTPUT = document.getElementById("SpaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>added by javascrript</h2>";
 
 //variables
@@ -15,7 +15,7 @@ let year = 2026;
 /****************************
 main code
 ****************************/
-console.log("Hi "+ name + ",")
+OUTPUT.innerHTML += <p>"Hi "+ name + ","</p>;
 console.log("as of " + year + "you are " + age + " years old")
 console.log("you were born in", year-age)
 var yearBorn = year-age;
