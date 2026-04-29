@@ -16,7 +16,7 @@ let year = 2026;
 main code
 ****************************/
 console.log("Hi "+ name + ",")
-console.log("as of " + year + ", " + "you are " + age + " years old" + ".")
+console.log("as of " + year + "you are " + age + " years old")
 console.log("you were born in", year-age)
 var yearBorn = year-age;
 console.log("In 10 years, you will be", age+10)
