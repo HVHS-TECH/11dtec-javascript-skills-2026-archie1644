@@ -15,7 +15,7 @@ let year = 2026;
 /****************************
 main code
 ****************************/
-OUTPUT.innerHTML += "Hi "+ name + ","
+OUTPUT.innerHTML += "<h2>"Hi " + name + ","</h2>"
 OUTPUT.innerHTML += "as of " + year + ", " + "you are " + age + " years old" + "."
 console.log("you were born in", year-age)
 console.log("In 10 years, you will be", age+10)
