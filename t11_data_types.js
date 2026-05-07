@@ -44,13 +44,13 @@ function getFormInput(){
 
 function getFormInput2(){
     const AGE_FIELD = document.getElementById("ageField");
-    let userAge = AGE_FIELD.value;
+    let userAge = NUMBER(AGE_FIELD.value);
     OUTPUT.innerHTML = "<p>Your age is "+userAge+"</p>";
 }
 
 function getFormInput3(){
     const pocketmoneyField = document.getElementById("pocketmoneyField");
-    let userMoney = pocketmoneyField.value;
+    let userMoney = NUMBER(pocketmoneyField.value);
     OUTPUT.innerHTML = "<p>You have $"+userMoney+"</p>";
 }
 
