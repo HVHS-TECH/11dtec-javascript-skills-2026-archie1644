@@ -39,19 +39,19 @@ functions
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+    OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
 }
 
 function getFormInput2(){
     const AGE_FIELD = document.getElementById("ageField");
-    let userAge = NUMBER(AGE_FIELD.value);
-    OUTPUT.innerHTML = "<p>Your age is "+userAge+"</p>";
+    let userAge = AGE_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your age is "+userAge+"</p>";
 }
 
 function getFormInput3(){
     const pocketmoneyField = document.getElementById("pocketmoneyField");
-    let userMoney = NUMBER(pocketmoneyField.value);
-    OUTPUT.innerHTML = "<p>You have $"+userMoney+"</p>";
+    let userMoney = pocketmoneyField.value;
+    OUTPUT.innerHTML += "<p>You have $"+userMoney+"</p>";
 }
 
 
