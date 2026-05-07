@@ -32,6 +32,15 @@ displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
 }
 
+if (pocketMoney > 4){
+    OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar"
+} else if (pocketMoney == 4){
+    OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar"
+} else {
+    OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
+}
+    
+
 /****************************
 functions
 ****************************/
