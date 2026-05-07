@@ -1,8 +1,8 @@
 /****************************
-data types
+Conditionals
 ****************************/
 
-console.log("Running t11_data_types.js")
+console.log("Running t11_conditionals.js")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>added by javascrript</h2>";
 
