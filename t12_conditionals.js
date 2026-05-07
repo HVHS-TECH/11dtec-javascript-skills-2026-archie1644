@@ -30,8 +30,16 @@ welcome()
 displayProduct("<p>chocolate: ", "$4.00");
 displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
+chocolatebar()
 }
 
+
+    
+
+/****************************
+functions
+****************************/
+function chocolatebar(){
 if (pocketMoney > 4){
     OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar"
 } else if (pocketMoney == 4){
@@ -39,11 +47,7 @@ if (pocketMoney > 4){
 } else {
     OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
 }
-    
-
-/****************************
-functions
-****************************/
+}
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");

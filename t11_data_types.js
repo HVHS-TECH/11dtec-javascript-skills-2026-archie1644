@@ -38,20 +38,20 @@ functions
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
-    let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
+    let name = NAME_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your name is "+name+"</p>";
 }
 
 function getFormInput2(){
     const AGE_FIELD = document.getElementById("ageField");
-    let userAge = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your age is "+userAge+"</p>";
+    let age = AGE_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your age is "+age+"</p>";
 }
 
 function getFormInput3(){
     const MONEY_FIELD = document.getElementById("moneyField");
-    let userMoney = MONEY_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your money is $"+userMoney+"</p>";
+    let pocketMoney = MONEY_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your money is $"+pocketMoney+"</p>";
 }
 
 
