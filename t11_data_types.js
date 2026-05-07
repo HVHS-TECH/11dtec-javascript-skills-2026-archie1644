@@ -39,13 +39,13 @@ functions
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+    OUTPUT.innerHTML += "<p>Your name is "+userName+"</p>";
 }
 
-function getFormInput(){
-            const AGE_FIELD = document.getElementById("ageField");
+function getFormInput2(){
+    const AGE_FIELD = document.getElementById("ageField");
     let userAge = NUMBER(AGE_FIELD.value);
-    OUTPUT.innerHTML = "<p>Your age is "+userAge+"</p>";
+    OUTPUT.innerHTML += "<p>Your age is "+userAge+"</p>";
 }
 
 
