@@ -43,11 +43,10 @@ function getFormInput(){
 }
 
 function getFormInput2(){
-    const AGE_FIELD = document.getElementById("ageField");
-    let userAge = NUMBER(AGE_FIELD.value);
-    OUTPUT.innerHTML = "<p>Your age is "+userAge+"</p>";
+    const NAME_FIELD = document.getElementById("nameField");
+    let userName = NAME_FIELD.value;
+    OUTPUT.innerHTML = "<p>Your age is "+userName+"</p>";
 }
-
 
 
 function welcome(){
