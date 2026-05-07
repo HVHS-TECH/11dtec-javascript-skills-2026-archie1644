@@ -43,9 +43,15 @@ function getFormInput(){
 }
 
 function getFormInput2(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p>Your age is "+userName+"</p>";
+    const AGE_FIELD = document.getElementById("ageField");
+    let userAge = AGE_FIELD.value;
+    OUTPUT.innerHTML = "<p>Your age is "+userAge+"</p>";
+}
+
+function getFormInput3(){
+    const pocketmoneyField = document.getElementById("pocketmoneyField");
+    let userMoney = pocketmoneyField.value;
+    OUTPUT.innerHTML = "<p>You have $"+userMoney+"</p>";
 }
 
 
