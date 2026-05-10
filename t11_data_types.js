@@ -13,13 +13,13 @@ OUTPUT.innerHTML += "<h2>added by javascrript</h2>";
 main code
 ****************************/
 function start(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let Username = NAME_FIELD.value;
-    const AGE_FIELD = document.getElementById("ageField");
-    let Userage = Number(AGE_FIELD.value);
-    const MONEY_FIELD = document.getElementById("moneyField");
-    let UserpocketMoney = Number(MONEY_FIELD.value);
-    let name = "archie";
+const NAME_FIELD = document.getElementById("nameField");
+ let Username = NAME_FIELD.value;
+const AGE_FIELD = document.getElementById("ageField");
+ let Userage = Number(AGE_FIELD.value);
+ const MONEY_FIELD = document.getElementById("moneyField");
+let UserpocketMoney = Number(MONEY_FIELD.value);
+let name = "archie";
 let pocketMoney = 2;
 let age = 16;
 let year = 2026;
@@ -43,10 +43,6 @@ displayProduct("<p>drink: ", "$2.50");
 /****************************
 functions
 ****************************/
-
-
-
-
 function welcome(){
     OUTPUT.innerHTML += "<p>welcome to the shop:";
 }
