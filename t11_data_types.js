@@ -23,9 +23,9 @@ function start(){
     const NAME_FIELD = document.getElementById("nameField");
     let Username = NAME_FIELD.value;
     const AGE_FIELD = document.getElementById("ageField");
-    let Userage = NUMBER(AGE_FIELD.value);
+    let Userage = Number(AGE_FIELD.value);
     const MONEY_FIELD = document.getElementById("moneyField");
-    let UserpocketMoney = NUMBER(MONEY_FIELD.value);
+    let UserpocketMoney = MONEY_FIELD.value;
 OUTPUT.innerHTML += "<p>Hi "+ Username;
 OUTPUT.innerHTML += "<p>as of " + year + " you are " + Userage + " years old";
 OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
