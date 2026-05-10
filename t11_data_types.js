@@ -7,14 +7,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>added by javascrript</h2>";
 
 //variables
-let name = "archie";
-let pocketMoney = 2;
-let age = 16;
-let year = 2026;
-var yearBorn = year-Userage;
-var tenYears = Userage+10;
-var halfMoney = UserpocketMoney/2;
-var plusThree = UserpocketMoney/2+3;
+
 
 /****************************
 main code
@@ -26,6 +19,14 @@ function start(){
     let Userage = Number(AGE_FIELD.value);
     const MONEY_FIELD = document.getElementById("moneyField");
     let UserpocketMoney = Number(MONEY_FIELD.value);
+    let name = "archie";
+let pocketMoney = 2;
+let age = 16;
+let year = 2026;
+var yearBorn = year-Userage;
+var tenYears = Userage+10;
+var halfMoney = UserpocketMoney/2;
+var plusThree = UserpocketMoney/2+3;
 OUTPUT.innerHTML += "<p>Hi "+ Username;
 OUTPUT.innerHTML += "<p>as of " + year + " you are " + Userage + " years old";
 OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
