@@ -37,6 +37,7 @@ welcome()
 displayProduct("<p>chocolate: ", "$4.00");
 displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
+
 }
 chocolatebar()
 /****************************
