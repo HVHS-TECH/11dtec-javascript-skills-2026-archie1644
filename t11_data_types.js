@@ -23,7 +23,7 @@ function start(){
     const NAME_FIELD = document.getElementById("nameField");
     let Username = NAME_FIELD.value;
     const AGE_FIELD = document.getElementById("ageField");
-    let Userage = Number(AGE_FIELD.value);
+    let Userage = NUMBER(AGE_FIELD.value);
     const MONEY_FIELD = document.getElementById("moneyField");
     let UserpocketMoney = MONEY_FIELD.value;
 OUTPUT.innerHTML += "<p>Hi "+ Username;
