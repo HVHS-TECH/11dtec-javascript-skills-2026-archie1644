@@ -38,23 +38,24 @@ displayProduct("<p>chocolate: ", "$4.00");
 displayProduct("<p>chips: ", "$3.00");
 displayProduct("<p>drink: ", "$2.50");
 }
+chocolatebar()
 /****************************
 functions
 ****************************/
-function chocolatebar(){
-if (pocketMoney > 4){
-    OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar"
-} else if (pocketMoney == 4){
-    OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar"
-} else {
-    OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
-}
-}
-
 function welcome(){
     OUTPUT.innerHTML += "<p>welcome to the shop:";
 }
 
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
+}
+
+function chocolatebar(){
+if (UserpocketMoney > 4){
+    OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar"
+} else if (UserpocketMoney == 4){
+    OUTPUT.innerHTML += "<p>you have enough to buy a chocolate bar"
+} else {
+    OUTPUT.innerHTML += "<p>you do not have enough to buy a chocolate bar"
+}
 }
