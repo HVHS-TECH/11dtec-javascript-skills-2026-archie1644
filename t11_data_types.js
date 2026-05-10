@@ -35,7 +35,6 @@ displayProduct("<p>drink: ", "$2.50");
 /****************************
 functions
 ****************************/
-
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
@@ -53,6 +52,7 @@ function getFormInput3(){
     let pocketMoney = MONEY_FIELD.value;
     OUTPUT.innerHTML += "<p>Your money is $"+pocketMoney+"</p>";
 }
+
 
 
 function welcome(){
