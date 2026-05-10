@@ -42,23 +42,7 @@ displayProduct("<p>drink: ", "$2.50");
 /****************************
 functions
 ****************************/
-function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let Username = NAME_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your name is "+Username+"</p>";
-}
 
-function getFormInput2(){
-    const AGE_FIELD = document.getElementById("ageField");
-    let Userage = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your age is "+Userage+"</p>";
-}
-
-function getFormInput3(){
-    const MONEY_FIELD = document.getElementById("moneyField");
-    let UserpocketMoney = MONEY_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your money is $"+UserpocketMoney+"</p>";
-}
 
 
 
