@@ -23,16 +23,16 @@ function start(){
     const NAME_FIELD = document.getElementById("nameField");
     let Username = NAME_FIELD.value;
     const AGE_FIELD = document.getElementById("ageField");
-    let Userage = AGE_FIELD.value;
+    let Userage = NUMBER(AGE_FIELD.value);
     const MONEY_FIELD = document.getElementById("moneyField");
-    let UserpocketMoney = MONEY_FIELD.value;
+    let UserpocketMoney = NUMBER(MONEY_FIELD.value);
 OUTPUT.innerHTML += "<p>Hi "+ Username;
 OUTPUT.innerHTML += "<p>as of " + year + " you are " + Userage + " years old";
-OUTPUT.innerHTML += "<p>you were born in " + year-Userage;
-OUTPUT.innerHTML += "<p>In 10 years, you will be " + Userage+10;
+OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
+OUTPUT.innerHTML += "<p>In 10 years, you will be " + tenYears;
 OUTPUT.innerHTML += "<p>you have " + UserpocketMoney + " dollars.";
-OUTPUT.innerHTML += "<p>you spend half of your money, now you have " + UserpocketMoney/2 + " dollars";
-OUTPUT.innerHTML += "<p>then you get $3, you now have " + UserpocketMoney/2+3 + " dollars" ;
+OUTPUT.innerHTML += "<p>you spend half of your money, now you have " + halfMoney + " dollars";
+OUTPUT.innerHTML += "<p>then you get $3, you now have " + plusThree + " dollars" ;
 welcome()
 displayProduct("<p>chocolate: ", "$4.00");
 displayProduct("<p>chips: ", "$3.00");
