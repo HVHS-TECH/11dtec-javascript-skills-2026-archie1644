@@ -15,10 +15,17 @@ var yearBorn = year-age;
 var tenYears = age+10;
 var halfMoney = pocketMoney/2;
 var plusThree = pocketMoney/2+3;
+    const NAME_FIELD = document.getElementById("nameField");
+    let Username = NAME_FIELD.value;
+    const AGE_FIELD = document.getElementById("ageField");
+    let Userage = AGE_FIELD.value;
+    const MONEY_FIELD = document.getElementById("moneyField");
+    let UserpocketMoney = MONEY_FIELD.value;
 /****************************
 main code
 ****************************/
 function start(){
+
 OUTPUT.innerHTML += "<p>Hi "+ Username;
 OUTPUT.innerHTML += "<p>as of " + year + " you are " + Userage + " years old";
 OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
