@@ -19,11 +19,11 @@ var plusThree = pocketMoney/2+3;
 main code
 ****************************/
 function start(){
-OUTPUT.innerHTML += "<p>Hi "+ name;
-OUTPUT.innerHTML += "<p>as of " + year + " you are " + age + " years old";
+OUTPUT.innerHTML += "<p>Hi "+ Username;
+OUTPUT.innerHTML += "<p>as of " + year + " you are " + Userage + " years old";
 OUTPUT.innerHTML += "<p>you were born in " + yearBorn;
 OUTPUT.innerHTML += "<p>In 10 years, you will be " + tenYears;
-OUTPUT.innerHTML += "<p>you have " + pocketMoney + " dollars.";
+OUTPUT.innerHTML += "<p>you have " + UserpocketMoney + " dollars.";
 OUTPUT.innerHTML += "<p>you spend half of your money, now you have " + halfMoney + " dollars";
 OUTPUT.innerHTML += "<p>then you get $3, you now have " + plusThree + " dollars" ;
 welcome()
@@ -37,20 +37,20 @@ functions
 ****************************/
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
-    let name = NAME_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your name is "+name+"</p>";
+    let Username = NAME_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your name is "+Username+"</p>";
 }
 
 function getFormInput2(){
     const AGE_FIELD = document.getElementById("ageField");
-    let age = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your age is "+age+"</p>";
+    let Userage = AGE_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your age is "+Userage+"</p>";
 }
 
 function getFormInput3(){
     const MONEY_FIELD = document.getElementById("moneyField");
-    let pocketMoney = MONEY_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your money is $"+pocketMoney+"</p>";
+    let UserpocketMoney = MONEY_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your money is $"+UserpocketMoney+"</p>";
 }
 
 
