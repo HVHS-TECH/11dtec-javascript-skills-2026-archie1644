@@ -58,7 +58,7 @@ let choice = CHOICE_FIELD.value;
 OUTPUT.innerHTML += "you chose: "+classArray[choice]+"";
 //counting down
 
-for(let count=10; count>=0; count--){
+for(let count=99; count>=0; count--){
     OUTPUT.innerHTML += "<p>"+count+" bottles of milk on the wall, "+count+" bottles of milk. take one down, pass it around, "+count+" bottles of milk on the wall."
     OUTPUT.innerHTML += "<p>take one down, pass it around, "+count+" bottles of milk on the wall."
 }
