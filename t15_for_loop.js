@@ -56,7 +56,11 @@ return change;
 let classArray = ["chocolate sucks", "chocolate is mid", "chocolate is alright", "chocolate is great"];
 let choice = CHOICE_FIELD.value;
 OUTPUT.innerHTML += "you chose: "+classArray[choice]+"";
+//counting down
 
+for(let i=10; i>=0; i--){
+    
+}
 
 
 }
