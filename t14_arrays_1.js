@@ -2,7 +2,7 @@
 arrays
 ****************************/
 
-console.log("Running arrays_1.js")
+console.log("Running t14_arrays_1.js")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>added by javascrript</h2>";
 
