@@ -60,6 +60,7 @@ OUTPUT.innerHTML += "you chose: "+classArray[choice]+"";
 
 for(let count=10; count>=0; count--){
     OUTPUT.innerHTML += "<p>"+count+" bottles of milk on the wall, "+count+" bottles of milk. take one down, pass it around, "+count+" bottles of milk on the wall."
+    OUTPUT.innerHTML += "<p>take one down, pass it around, "+count+" bottles of milk on the wall."
 }
 
 
