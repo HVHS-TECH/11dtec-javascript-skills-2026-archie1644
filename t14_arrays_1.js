@@ -19,7 +19,6 @@ const AGE_FIELD = document.getElementById("ageField");
  const MONEY_FIELD = document.getElementById("moneyField");
 let UserpocketMoney = Number(MONEY_FIELD.value);
 const CHOICE_FIELD = document.getElementById("choiceField");
- let choice = CHOICE_FIELD.value;
 let name = "archie";
 let pocketMoney = 2;
 let age = 16;
@@ -56,7 +55,7 @@ return change;
     }
 let classArray = ["chocolate sucks", "chocolate is mid", "chocolate is alright", "chocolate is great"];
 let choice = CHOICE_FIELD.value;
-OUTPUT.innerHTML += "you chose: "+classArray[choice]+".";
+OUTPUT.innerHTML += "you chose: "+classArray[choice]+"";
 
 
 
