@@ -21,14 +21,20 @@
  <form onsubmit="return false;">
 <label for=":formName">Name:</label>
 <input type="text" id="nameField" name="formName" placeholder="Name">
+
 <label for=":formName">Age:</label>
 <input type="number" id="ageField" name="formName" placeholder="age">
+
 <label for=":formName">Pocket money:</label>
 <input type="number" id="moneyField" name="formName" placeholder="Pocket money">
-<label for=":formName">Chocolate (rate 0-3):</label>
-<input type="text" id="choiceField" name="formName" placeholder="Rate 0-3">
-<input type="submit" onClick=getFormInput()>
 
+<label for=":formName">Chocolate (rate 0-3):</label>
+<input type="number" id="choiceField" name="formName" placeholder="Rate 0-3">
+
+<label for=":formName">Number of verses:</label>
+<input type="number" id="versesField" placeholder="0-99">
+
+<input type="submit" onClick=getFormInput()>
 </form>
  <button onClick="start()">start </button>
 

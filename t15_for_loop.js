@@ -19,6 +19,7 @@ const AGE_FIELD = document.getElementById("ageField");
  const MONEY_FIELD = document.getElementById("moneyField");
 let UserpocketMoney = Number(MONEY_FIELD.value);
 const CHOICE_FIELD = document.getElementById("choiceField");
+let verses = Number(document.getElementById("versesField").value)
 let name = "archie";
 let pocketMoney = 2;
 let age = 16;
@@ -56,14 +57,20 @@ return change;
 let classArray = ["chocolate sucks", "chocolate is mid", "chocolate is alright", "chocolate is great"];
 let choice = CHOICE_FIELD.value;
 OUTPUT.innerHTML += "you chose: "+classArray[choice]+"";
-//counting down
 
-for(let count=99; count>=0; count--){
+
+for(let count=verses; count>=2; count--){
+
+    if(count==1){
+    OUTPUT.innerHTML += "<p>1 bottle of milk on the wall, 1 bottle of milk</p>"
+    OUTPUT.innerHTML += "<p>Take one down, pass it around, no more bottles of milk on the wall</p>"
+    } else {
     OUTPUT.innerHTML += "<p>"+count+" bottles of milk on the wall, "+count+" bottles of milk."
-    OUTPUT.innerHTML += "<p>take one down, pass it around, "+count+" bottles of milk on the wall."
+    OUTPUT.innerHTML += "<p>take one down, pass it around, "+(count-1)+" bottles of milk on the wall."
+    } 
 }
-
-
+    OUTPUT.innerHTML += "<p>No more bottles of milk on the wall, no more bottles of milk</p>"
+    OUTPUT.innerHTML += "<p>Go to the store and buy some more, "+verses+" bottles of milk on the wall</p>"
 }
 
 /****************************
